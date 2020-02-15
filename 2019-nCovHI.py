@@ -30,7 +30,7 @@ suspectedNum.reverse()
 curesNum.reverse()
 deathsNum.reverse()
 
-line = Line('疫情趋势')
+line = Line('疫情趋势','武汉加油！中国加油！')
 line.add('确诊人数',date,confirmedNum,is_smooth=True)
 line.add('疑似人数',date,suspectedNum,is_smooth=True)
 line.add('治愈人数',date,curesNum,is_smooth=True)

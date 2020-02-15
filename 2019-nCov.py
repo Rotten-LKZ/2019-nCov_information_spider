@@ -20,7 +20,7 @@ for e in res['data']:
     curesNum.append(e['curesNum'])
     deathsNum.append(e['deathsNum'])
 
-bar = Bar('各省市疫情数据','中国加油！')
+bar = Bar('各省市疫情数据','武汉加油！中国加油！')
 bar.add("确诊人数", provinceName, confirmedNum)
 bar.add("治愈人数", provinceName, curesNum)
 bar.add("死亡人数", provinceName, deathsNum)
